@@ -9,15 +9,16 @@
     "readme": "https://github.com/ikoncoders/ikonizer-magma/blob/master/README.md",
     "support": {
         "email": "ikoncoders@gmail.com",
-        "source": "https://github.com/ikoncoders/ikonizer-magma.git",
-        "wiki": "https://github.com/ikoncoders/ikonizer-magma/wiki",
-        "issues": "https://github.com/ikoncoders/ikonizer-magma/issues"
+        "source": "https://github.com/ikoncoders/caremi-framework",
+        "wiki": "https://github.com/ikoncoders/caremi-framework/wiki",
+        "issues": "https://github.com/ikoncoders/caremi-framework/issues"
     },
-    "homepage": "https://thecodingworkshop.github.io/MagmaCore__/",
+    "homepage": "https://github.com/ikoncoders",
     "license": "MIT",
     "authors": [{
         "name": "ikoncoders",
-        "email": "ikoncoders@gmail.com"
+        "email": "ikoncoders@gmail.com",
+        "role": "Developer"
     }],
     "minimum-stability": "dev",
     "require": {
