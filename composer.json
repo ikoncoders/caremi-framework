@@ -1,0 +1,43 @@
+{
+    "name": "ikoncoders/caremi-framework",
+    "description": "A Small modular PHP framework Build for web applications",
+    "keywords": [
+        "ikonizer-base","magma-framework","php","framework","project"
+    ],
+    "type": "library",
+    "time": "2023-09-28",
+    "readme": "https://github.com/ikoncoders/ikonizer-magma/blob/master/README.md",
+    "support": {
+        "email": "ikoncoders@gmail.com",
+        "source": "https://github.com/ikoncoders/ikonizer-magma.git",
+        "wiki": "https://github.com/ikoncoders/ikonizer-magma/wiki",
+        "issues": "https://github.com/ikoncoders/ikonizer-magma/issues"
+    },
+    "homepage": "https://thecodingworkshop.github.io/MagmaCore__/",
+    "license": "MIT",
+    "authors": [{
+        "name": "ikoncoders",
+        "email": "ikoncoders@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php":"7.4.2|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"      
+    },
+    "autoload": {
+        "psr-4": {
+            "Caremi\\": "src/caremi"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Caremi\\Tests\\": "tests/"
+        }
+    }
+    
+}
