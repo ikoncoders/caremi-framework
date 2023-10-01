@@ -12,13 +12,11 @@ use Caremi\Auth\Authorized;
 use Caremi\Utility\Singleton;
 use Caremi\Utility\Stringify;
 use Caremi\Base\BaseController;
-
 use Caremi\Session\SessionTrait;
 use Caremi\Utility\DateFormatter;
 use Symfony\Component\Asset\Package;
 use Twig\Extension\AbstractExtension;
 use Caremi\Translation\Translation;
-
 use Caremi\Auth\Model\PermissionModel;
 use Caremi\Twig\Extensions\NavBarExtension;
 use Caremi\Twig\Extensions\IconNavExtension;
@@ -53,7 +51,6 @@ class TwigExtension extends AbstractExtension implements \Twig\Extension\Globals
             new TwigFunction('path', [$this, 'path']),
             new TwigFunction('tableDateFormat', [$this, 'tableDateFormat']),
             new TwigFunction('getPermissionName', [$this, 'getPermissionName']),
-
             new TwigFunction('flashMessages', [new FlashMessageExtension(), 'flashMessages']),
             new TwigFunction('navMenu', [new NavBarExtension(), 'navMenu']),
             new TwigFunction('iconNav', [new IconNavExtension(), 'iconNav']),

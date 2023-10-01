@@ -26,7 +26,6 @@ abstract class AbstractQueryBuilder implements QueryBuilderInterface
         'table' => '',
         'type' => '',
         'raw' => '',
-
         'join_to' => '',
         'join_to_selectors' => [],
         'join_type' => '',
